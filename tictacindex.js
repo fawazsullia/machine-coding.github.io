@@ -124,7 +124,7 @@ return false;
 
 //game over
 function gameOver(message, player = null){
-playAgain.addEventListener("click", ()=> {window.location.href = "/tictacindex.html"})
+playAgain.addEventListener("click", ()=> {window.location.href = "machine-coding.github.io/tictacindex.html"})
 messageField.innerText = message;
 gameOverField.classList.add("visible")
 game.style.pointerEvents = "none"
