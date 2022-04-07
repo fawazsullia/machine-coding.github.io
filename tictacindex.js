@@ -23,7 +23,7 @@ const d72 = [7,13,19,25,31,37,43]
 
 //choose the diagonals
 if(size === 3) {dia1 = d31; dia2 = d32
-} else if(size === 7){
+} else if(size === 5){
   dia1 = d51; dia2 = d52;
 } else { 
   dia1 = d71; dia2 = d72;
